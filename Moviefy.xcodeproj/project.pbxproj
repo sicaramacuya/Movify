@@ -25,6 +25,7 @@
 		E97DCEA3270B713B00181FEF /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DCEA2270B713B00181FEF /* APIClient.swift */; };
 		E97DCEA5270B724600181FEF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DCEA4270B724600181FEF /* Request.swift */; };
 		E97DCEA7270B75D000181FEF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DCEA6270B75CF00181FEF /* NetworkError.swift */; };
+		E97DCEA9270B7A2E00181FEF /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DCEA8270B7A2E00181FEF /* Encoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,7 @@
 		E97DCEA2270B713B00181FEF /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		E97DCEA4270B724600181FEF /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		E97DCEA6270B75CF00181FEF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		E97DCEA8270B7A2E00181FEF /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				E97DCEA2270B713B00181FEF /* APIClient.swift */,
 				E97DCEA4270B724600181FEF /* Request.swift */,
 				E97DCEA6270B75CF00181FEF /* NetworkError.swift */,
+				E97DCEA8270B7A2E00181FEF /* Encoder.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				AB9F57FA243D54F1006612A3 /* MovieCell.swift in Sources */,
 				ABAB4F0A241A172E001E85CA /* SceneDelegate.swift in Sources */,
 				E97DCEA5270B724600181FEF /* Request.swift in Sources */,
+				E97DCEA9270B7A2E00181FEF /* Encoder.swift in Sources */,
 				AB9F57FE243D57FF006612A3 /* MovieSection.swift in Sources */,
 				E97DCEA7270B75D000181FEF /* NetworkError.swift in Sources */,
 				E97DCEA3270B713B00181FEF /* APIClient.swift in Sources */,
