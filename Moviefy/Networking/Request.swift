@@ -21,6 +21,8 @@ public enum Route: String{
 }
 
 struct Request {
+    public static let baseImageURL = URL(string: "https://image.tmdb.org/t/p/w500")!
+    
     static let headers = [
         "Accept": "application/json",
         "Content-Type": "application/json",
