@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var sections: [Section] = []
     
     override func viewDidAppear(_ animated: Bool) {
-          super.viewDidAppear(animated)
+        super.viewDidAppear(animated)
     }
     
     override func viewDidLoad() {
@@ -39,7 +39,23 @@ class ViewController: UIViewController {
     }
     
     func fetchPopular(){
-    
+        APIClient.shared.getPopularMovies { (result) in
+            switch result{
+            case let .success(movies):
+                DispatchQueue.main.async {
+                    self.movies = movies
+                    var basicSection = MovieSection()
+                    basicSection.numberOfItems = movies.count
+                    basicSection.items = movies
+                    self.sections.append(TitleSection(title: "Popular Movies"))
+                    self.sections.append(basicSection)
+                    self.setupCollectionView()
+                }
+            case let .failure(error):
+                print(error)
+            }
+        }
+        
     }
 }
 
